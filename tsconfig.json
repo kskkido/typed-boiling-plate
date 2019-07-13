@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "keyofStringsOnly": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es6",
+    "typeRoots": [
+      "./node_modules/@types",
+      "app/types/declarations"
+    ],
+    "baseUrl": "./app",
+  },
+  "include": [
+    "app/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+}
+
